@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/devops/</link>
+    <description>Recent content in Devops on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/devops/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WARNING: UNPROTECTED PRIVATE KEY FILE!</title>
+      <link>https://www.erdaltaskesen.com/blog/warning-unprotected-private-key-file/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/warning-unprotected-private-key-file/</guid>
+      <description>&lt;p&gt;I was planning to do a clean install after macOS Catalina was released. I copied
+my ssh keys and I&amp;rsquo;ve seen the warning when I tried to run git-related commands.&lt;/p&gt;
+
+&lt;p&gt;After a short research, I&amp;rsquo;ve found out the source of the problem is the
+permissions on the private key file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Ubuntu Server LTS from 16.04 to 18.04</title>
+      <link>https://www.erdaltaskesen.com/blog/upgrading-ubuntu-server-lts-from-16-04-to-18-04/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/upgrading-ubuntu-server-lts-from-16-04-to-18-04/</guid>
+      <description>&lt;p&gt;Ubuntu 18.04, aka Bionic Beaver, was released on 26 April 2018. In this post, I
+will try to explain how do I upgrade my Ubuntu server. I will also inform you
+about how I overcome the obstacles related python hosting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I do backup my server using Dropbox headless</title>
+      <link>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</guid>
+      <description>&lt;p&gt;I have experienced a disaster on my web server a few days ago. While trying to
+remove one of my dev databases, I have removed the production database
+accidentally. I was extremely lucky because I duplicated production database to
+the local one to test a python script and I have all my web app&amp;rsquo;s content in the
+GIT history which you shouldn&amp;rsquo;t. Because it is not the best practice to put web
+app&amp;rsquo;s content to the VCS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to block search engines in the nginx</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</guid>
+      <description>&lt;p&gt;If you have three layered development structure (local dev, remote staging,
+remote production) like me, you want to search engines index your staging server.
+It is easy to prevent search engines from indexing your nginx web server.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;add_header  X-Robots-Tag &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;noindex, nofollow, nosnippet, noarchive&amp;#34;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

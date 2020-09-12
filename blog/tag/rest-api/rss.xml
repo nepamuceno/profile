@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rest Api on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/rest-api/</link>
+    <description>Recent content in Rest Api on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/rest-api/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Flask REST API without using 3rd party extension</title>
+      <link>https://www.erdaltaskesen.com/blog/building-a-flask-rest-api-without-using-3rd-party-extension/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/building-a-flask-rest-api-without-using-3rd-party-extension/</guid>
+      <description>In this tutorial, I&amp;rsquo;m going to show you how to create a simple REST API by using Flask framework. I will not bother you with any sort of advanced topic. Probably you won&amp;rsquo;t use this tutorial for any kind of production level product. I just want to show how easy can be to create a REST API with Flask.
+This tutorial aims to build a small and simple app. The entire app fits in a single file.</description>
+    </item>
+    
+  </channel>
+</rss>

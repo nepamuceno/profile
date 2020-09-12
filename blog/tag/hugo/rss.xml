@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/hugo/</link>
+    <description>Recent content in Hugo on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/hugo/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving from Flask to Hugo</title>
+      <link>https://www.erdaltaskesen.com/blog/moving-from-flask-to-hugo/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/moving-from-flask-to-hugo/</guid>
+      <description>&lt;p&gt;I have been planning to rejuvenate my personal website / blog with a new backend
+for a long time. I have finally moved to &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; after messing
+with different kind of tech stacks over the time.&lt;/p&gt;
+
+&lt;p&gt;I have moved every single feature to Hugo successfully, but There are a few
+things that don&amp;rsquo;t fully work yet, but for the moment, I&amp;rsquo;m happy with my new site.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

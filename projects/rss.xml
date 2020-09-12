@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/projects/</link>
+    <description>Recent content in Projects on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2018 11:30:20 +0300</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/projects/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dotfiles</title>
+      <link>https://www.erdaltaskesen.com/projects/dotfiles/</link>
+      <pubDate>Fri, 20 Apr 2018 11:30:20 +0300</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/projects/dotfiles/</guid>
+      <description>Dotfiles are how you personalize your system. These are mine for macOS and Ubuntu Server.</description>
+    </item>
+    
+    <item>
+      <title>erdaltaskesen.com</title>
+      <link>https://www.erdaltaskesen.com/projects/erdaltaskesen-com/</link>
+      <pubDate>Mon, 30 Apr 2018 14:14:03 +0300</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/projects/erdaltaskesen-com/</guid>
+      <description>Erdal&amp;rsquo;s Personal website / blog. This website is powered by Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Blank</title>
+      <link>https://www.erdaltaskesen.com/projects/blank/</link>
+      <pubDate>Tue, 10 Apr 2018 15:40:30 +0300</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/projects/blank/</guid>
+      <description>This is a blank language-agnostic project template that you can use as a starter template for your new project.</description>
+    </item>
+    
+  </channel>
+</rss>

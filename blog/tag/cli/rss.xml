@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cli on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/cli/</link>
+    <description>Recent content in Cli on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/cli/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to list your most-used commands</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-list-your-most-used-commands/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-list-your-most-used-commands/</guid>
+      <description>&lt;p&gt;If you are a developer, you&amp;rsquo;re mostly working using the command line. You may
+even wanna find out the most used commands.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;fc -l &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; | awk &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] &amp;#34; &amp;#34; CMD[a]/count*100 &amp;#34;% &amp;#34; a; }&amp;#39;&lt;/span&gt; | grep -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./&amp;#34;&lt;/span&gt; | column -c3 -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; -t | sort -nr | nl | head -n10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to execute the last command with Sudo</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-execute-the-last-command-with-sudo/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-execute-the-last-command-with-sudo/</guid>
+      <description>&lt;p&gt;If you forgot to add &lt;code&gt;sudo&lt;/code&gt; in your last command, you don&amp;rsquo;t need to type it
+completely. To execute ant last executed command by as super user:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo !!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

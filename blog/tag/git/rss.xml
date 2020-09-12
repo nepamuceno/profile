@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/git/</link>
+    <description>Recent content in Git on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/git/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating and Applying Patch in Git</title>
+      <link>https://www.erdaltaskesen.com/blog/creating-and-applying-patch-in-git/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/creating-and-applying-patch-in-git/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;https://github.com/erdaltsksn/blank&#34;&gt;erdaltsksn/blank&lt;/a&gt; as a Template
+for my open source projects. When I make a commit in this repository, I need to
+apply the same commit to every repository in my account which means lots of
+repetitive work. But there is a simple solution for this kind of work in Git.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using File Finder on Github</title>
+      <link>https://www.erdaltaskesen.com/blog/using-file-finder-on-github/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/using-file-finder-on-github/</guid>
+      <description>&lt;p&gt;The first time I started to use Sublime Text I love the &lt;code&gt;⌘ + p&lt;/code&gt; shortcut
+combination. I really change the way I switch between files. After Github, I
+started to read codes on Github a lot.&lt;/p&gt;
+
+&lt;p&gt;Of couse you can use the search in this repository feature but it is slow and
+not good about listing files names.&lt;/p&gt;
+
+&lt;p&gt;Today I have discovered wonderful keyboard shortcut on Github: &lt;code&gt;t&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to partially stage files</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-partially-stage-files/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-partially-stage-files/</guid>
+      <description>&lt;p&gt;GIT has a wonderful idea that is known as the staging area. The stage area is
+the place where you prepare the files that are going to be on your next commit.
+Sometimes you want to add only one specific part of some files.&lt;/p&gt;
+
+&lt;p&gt;You can use one of the following commands. This commands with their options will
+will break down your files into smaller portions named &lt;strong&gt;hunks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git add -p &amp;lt;filename&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to fix wrong Git Tag date</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-fix-wrong-git-tag-date/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-fix-wrong-git-tag-date/</guid>
+      <description>&lt;p&gt;You can add git tag to a previous commit using &lt;code&gt;git tag TAG_NAME COMMIT_HASH&lt;/code&gt;,
+but it will ammend current date to that tag which can screw your repository by
+making out of chronological order. Don&amp;rsquo;t worry, You may fix this using the code
+below.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git tag -l | &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; read -r tag ; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; COMMIT_HASH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git rev-list -1 $tag&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; GIT_COMMITTER_DATE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git show $COMMIT_HASH --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;%aD | head -1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; git tag -a -f $tag -m&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git show $COMMIT_HASH --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;%s | head -1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; $COMMIT_HASH ; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git push --tags --force&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to change a commit timestamp</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-change-a-commit-timestamp/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-change-a-commit-timestamp/</guid>
+      <description>&lt;p&gt;You may need to change the DateTime of a commit in some situations. For example,
+some countries use daylight saving time period and because of it, some of the
+commits can have the wrong timestamp.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git commit --amend --date &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Thu Feb 15 22:37:31 2018 +0300&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ignoring the .gitignore file</title>
+      <link>https://www.erdaltaskesen.com/blog/ignoring-the-gitignore-file/</link>
+      <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/ignoring-the-gitignore-file/</guid>
+      <description>&lt;p&gt;Today I have a small disagreement with GIT and git ignore rules. When you add a
+file to a GIT repository, it is tracked by GIT. Then adding it to &lt;code&gt;.gitignore&lt;/code&gt;
+won&amp;rsquo;t make GIT forget about that file.&lt;/p&gt;
+
+&lt;p&gt;In this post, I will explain how to stop GIT from tracking a file that is
+already tracked.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Saving the local changes temporarily in Git</title>
+      <link>https://www.erdaltaskesen.com/blog/saving-the-local-changes-temporarily-in-git/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/saving-the-local-changes-temporarily-in-git/</guid>
+      <description>&lt;p&gt;Imagine that you&amp;rsquo;re working on a big feature in your app. Then you get a
+critical bug ticket that should be resolved immediately. You don&amp;rsquo;t want to
+commit the messy code. You just want to save your dirty working environment, do
+urgent things and go back it. For this, you can use &lt;code&gt;git stash&lt;/code&gt; command.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seo on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/seo/</link>
+    <description>Recent content in Seo on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/seo/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to block search engines in the nginx</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</guid>
+      <description>&lt;p&gt;If you have three layered development structure (local dev, remote staging,
+remote production) like me, you want to search engines index your staging server.
+It is easy to prevent search engines from indexing your nginx web server.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;add_header  X-Robots-Tag &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;noindex, nofollow, nosnippet, noarchive&amp;#34;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

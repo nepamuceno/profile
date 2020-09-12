@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/projects/dotfiles/</loc>
+    <lastmod>2018-04-20T11:30:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/projects/erdaltaskesen-com/</loc>
+    <lastmod>2018-04-30T14:14:03+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/creating-and-applying-patch-in-git/</loc>
+    <lastmod>2020-09-05T16:18:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/preparing-an-ebook-for-kindle/</loc>
+    <lastmod>2020-05-26T21:31:54+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/the-era-of-micro-packages/</loc>
+    <lastmod>2020-04-28T21:19:48+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-list-your-most-used-commands/</loc>
+    <lastmod>2020-04-19T18:39:39+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/warning-unprotected-private-key-file/</loc>
+    <lastmod>2019-10-11T16:19:48+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/using-whatsapp-for-private-storage-and-quick-transfer/</loc>
+    <lastmod>2019-09-25T00:53:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-execute-the-last-command-with-sudo/</loc>
+    <lastmod>2019-05-30T16:24:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-do-i-stop-automatically-unzipping-downloaded-zip-files-in-safari/</loc>
+    <lastmod>2019-02-04T13:21:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/using-file-finder-on-github/</loc>
+    <lastmod>2018-12-25T12:43:17+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-partially-stage-files/</loc>
+    <lastmod>2018-12-20T18:04:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/moving-from-flask-to-hugo/</loc>
+    <lastmod>2018-12-18T14:32:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-fix-wrong-git-tag-date/</loc>
+    <lastmod>2018-11-07T14:15:44+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-change-a-commit-timestamp/</loc>
+    <lastmod>2018-09-20T14:12:36+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/contact/</loc>
+    <lastmod>2018-05-30T20:59:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/upgrading-ubuntu-server-lts-from-16-04-to-18-04/</loc>
+    <lastmod>2018-05-13T19:04:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/projects/blank/</loc>
+    <lastmod>2018-04-10T15:40:30+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-remove-all-packages-installed-by-pip/</loc>
+    <lastmod>2018-03-29T02:13:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/ignoring-the-gitignore-file/</loc>
+    <lastmod>2018-03-23T21:03:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/building-a-flask-rest-api-without-using-3rd-party-extension/</loc>
+    <lastmod>2018-03-17T11:10:25+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/saving-the-local-changes-temporarily-in-git/</loc>
+    <lastmod>2018-03-08T13:18:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</loc>
+    <lastmod>2018-02-28T13:13:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-generate-secrets-in-python-3-6-and-later/</loc>
+    <lastmod>2018-02-23T06:11:22+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-remove-pycache-folders-and-pyc-files/</loc>
+    <lastmod>2018-02-20T12:08:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</loc>
+    <lastmod>2018-02-19T13:17:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/a-journey-of-a-thousand-miles-begins-with-a-single-step/</loc>
+    <lastmod>2018-02-18T13:18:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/</loc>
+    <lastmod>2020-09-05T16:18:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/book/</loc>
+    <lastmod>2020-05-26T21:31:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/cli/</loc>
+    <lastmod>2020-04-19T18:39:39+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/cron-job/</loc>
+    <lastmod>2018-02-28T13:13:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/devops/</loc>
+    <lastmod>2019-10-11T16:19:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/dropbox/</loc>
+    <lastmod>2018-02-28T13:13:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/</loc>
+    <lastmod>2018-04-20T11:30:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/erdaltaskesen.com/</loc>
+    <lastmod>2018-12-18T14:32:07+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/fix/</loc>
+    <lastmod>2019-10-11T16:19:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/flask/</loc>
+    <lastmod>2018-03-17T11:10:25+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/git/</loc>
+    <lastmod>2020-09-05T16:18:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/github/</loc>
+    <lastmod>2018-12-25T12:43:17+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/hugo/</loc>
+    <lastmod>2018-12-18T14:32:07+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/kindle/</loc>
+    <lastmod>2020-05-26T21:31:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/macos/</loc>
+    <lastmod>2019-02-04T13:21:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/netlify/</loc>
+    <lastmod>2018-12-18T14:32:07+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/nginx/</loc>
+    <lastmod>2018-02-19T13:17:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/page/</loc>
+    <lastmod>2018-05-30T20:59:50+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/pip/</loc>
+    <lastmod>2018-03-29T02:13:37+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/programming/</loc>
+    <lastmod>2020-04-28T21:19:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/projects/</loc>
+    <lastmod>2018-04-20T11:30:20+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/python/</loc>
+    <lastmod>2018-03-29T02:13:37+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/rest-api/</loc>
+    <lastmod>2018-03-17T11:10:25+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/safari/</loc>
+    <lastmod>2019-02-04T13:21:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/seo/</loc>
+    <lastmod>2018-02-19T13:17:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/ssh/</loc>
+    <lastmod>2019-10-11T16:19:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/tags/</loc>
+    <lastmod>2020-05-26T21:31:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/tip/</loc>
+    <lastmod>2020-05-26T21:31:54+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/ubuntu/</loc>
+    <lastmod>2018-05-13T19:04:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/virtualenv/</loc>
+    <lastmod>2018-03-29T02:13:37+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.erdaltaskesen.com/blog/tag/zip/</loc>
+    <lastmod>2019-02-04T13:21:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

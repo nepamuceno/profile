@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>How I do backup my server using Dropbox headless</title>
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+    <meta name="application-name" content="Erdal TAŞKESEN" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/favicons/mstile-310x310.png" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/styles/main.css">
+    
+    <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Erdal TAŞKESEN" />
+    <link href="/rss.xml" rel="feed" type="application/rss+xml" title="Erdal TAŞKESEN" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="branding">
+            <img src="/images/logo.svg" alt="Erdal TAŞKESEN" class="branding-logo">
+
+            <div class="branding-social">
+                <a href="https://www.linkedin.com/in/erdaltsksn" target="_blank" class="social-link">
+                    <i class="mario-blue fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/erdaltsksn" target="_blank" class="social-link">
+                    <i class="mario-green fab fa-github-square"></i>
+                </a>
+                <a href="mailto:contact@erdaltaskesen.com" class="social-link">
+                    <i class="mario-yellow fas fa-envelope-square"></i>
+                </a>
+                <a href="/rss.xml" class="social-link">
+                    <i class="mario-red fas fa-rss-square"></i>
+                </a>
+            </div>
+        </header>
+
+        <nav class="primary-nav">
+            <ul class="primary-nav-list">
+                <li class="primary-nav-item mario-blue">
+                    <a href="/" class="primary-nav-link">
+                        <i class="primary-nav-icon fa-fw fas fa-home"></i>
+                        <span class="primary-nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="primary-nav-item mario-green">
+                    <a href="/projects/" class="primary-nav-link">
+                        <i class="primary-nav-icon fa-fw fas fa-project-diagram"></i>
+                        <span class="primary-nav-text">Projects</span>
+                    </a>
+                </li>
+                <li class="primary-nav-item mario-yellow">
+                    <a href="/blog/" class="primary-nav-link">
+                        <i class="primary-nav-icon fa-fw fas fa-newspaper"></i>
+                        <span class="primary-nav-text">Blog</span>
+                    </a>
+                </li>
+                <li class="primary-nav-item mario-red">
+                    <a href="/contact/" class="primary-nav-link">
+                        <i class="primary-nav-icon fa-fw fas fa-envelope"></i>
+                        <span class="primary-nav-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            
+<article class="post-single">
+    <h1 class="page-title">How I do backup my server using Dropbox headless</h1>
+    <span class="post-created">28 February 2018</span>
+    <div class="post-body"><p>I have experienced a disaster on my web server a few days ago. While trying to
+remove one of my dev databases, I have removed the production database
+accidentally. I was extremely lucky because I duplicated production database to
+the local one to test a python script and I have all my web app&rsquo;s content in the
+GIT history which you shouldn&rsquo;t. Because it is not the best practice to put web
+app&rsquo;s content to the VCS.</p>
+
+<p>You shouldn&rsquo;t risk this and must use a reliable backup strategy. I have a simple
+solution that I prefer to use. I&rsquo;m using Dropbox for my apps&rsquo; contents and
+databases. Also, you may try to use GIT for your app&rsquo;s code.</p>
+
+<p>About my backup strategy, you may find the steps below:</p>
+
+<h2 id="1-install-dropbox-headless">1. Install Dropbox Headless</h2>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~ <span style="color:#f92672">&amp;&amp;</span> wget -O - <span style="color:#e6db74">&#34;https://www.dropbox.com/download?plat=lnx.x86_64&#34;</span> | tar xzf -
+~/.dropbox-dist/dropboxd</code></pre></div>
+
+<p>The second command will ask you to copy and paste a link into a browser to link
+your device to your account. After you activate your device, you can stop and
+Dropbox by using CTRL + C key combination.</p>
+
+<h2 id="2-restart-dropbox-at-start">2. Restart Dropbox at start</h2>
+
+<p>Edit the cron job using the command below.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">crontab -e</code></pre></div>
+
+<p>Add the line below:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Restart headless dropbox at start</span>
+@reboot ~/.dropbox-dist/dropboxd</code></pre></div>
+
+<p>This cron job will start dropbox daemon every time you restart your server. Note
+that this job must be before all the backup jobs. After this, you have to
+restart your web server to start Dropbox.</p>
+
+<h2 id="3-backup-the-database-and-the-content-folder">3. Backup the database and the content folder</h2>
+
+<p>Edit the cron job using the command below.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">crontab -e</code></pre></div>
+
+<p>Add the line below:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Backup for your_app_name</span>
+
+<span style="color:#ae81ff">0</span> */12 * * * zip -rj /home/your_user_name/Dropbox/BACKUPS/your_app_name/<span style="color:#66d9ef">$(</span>date <span style="color:#e6db74">&#39;+\%Y\%m\%d\%H\%M\%S&#39;</span><span style="color:#66d9ef">)</span>_content.zip /home/your_username/your_project_content/folder/
+<span style="color:#ae81ff">0</span> */12 * * * mysqldump -u <span style="color:#e6db74">&#39;your_db_username&#39;</span> -p<span style="color:#e6db74">&#39;your_db_password&#39;</span> your_db_name &gt; /home/your_user_name/Dropbox/BACKUPS/your_app_name/<span style="color:#66d9ef">$(</span>date <span style="color:#e6db74">&#39;+\%Y\%m\%d\%H\%M\%S&#39;</span><span style="color:#66d9ef">)</span>_db.sql</code></pre></div>
+
+<p>You have to change the lines, such as <code>your_x_variable</code> according to you.</p></div>
+
+    <section class="tagcloud">
+        <span class="tagcloud-label">Tags:</span>
+        
+        <a href="/blog/tag/devops" class="tagcloud-tag">devops</a>
+        
+        <a href="/blog/tag/dropbox" class="tagcloud-tag">dropbox</a>
+        
+        <a href="/blog/tag/cron-job" class="tagcloud-tag">cron-job</a>
+        
+    </section>
+</article>
+
+        </main>
+    </div>
+
+    <div class="copyright">
+        <span class="copyright-line">
+            Copyright © 1988-2020 by <a href="/"><strong>Erdal TAŞKESEN</strong></a>.
+        </span>
+        <span class="copyright-line">All Rights Reserved.</span>
+    </div>
+
+    
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(62412403, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/62412403" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    
+</body>
+
+</html>

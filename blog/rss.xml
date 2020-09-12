@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/</link>
+    <description>Recent content in Blogs on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating and Applying Patch in Git</title>
+      <link>https://www.erdaltaskesen.com/blog/creating-and-applying-patch-in-git/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/creating-and-applying-patch-in-git/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;https://github.com/erdaltsksn/blank&#34;&gt;erdaltsksn/blank&lt;/a&gt; as a Template
+for my open source projects. When I make a commit in this repository, I need to
+apply the same commit to every repository in my account which means lots of
+repetitive work. But there is a simple solution for this kind of work in Git.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Preparing an eBook for Kindle</title>
+      <link>https://www.erdaltaskesen.com/blog/preparing-an-ebook-for-kindle/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/preparing-an-ebook-for-kindle/</guid>
+      <description>&lt;p&gt;The Kindle is a revolutionary device that changes the reading habit of a lot of
+people including me recently. Everything works flawlessly when you purchase a
+book from the Amazon store.&lt;/p&gt;
+
+&lt;p&gt;Not every book exists in the store and sometimes you find the same book in a
+different vendor at a much cheaper price. The problem starts here. All the
+beauties of having kindle disappear in this situation. In this post, I will help
+you prepare your books for Kindle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Era of Micro Packages</title>
+      <link>https://www.erdaltaskesen.com/blog/the-era-of-micro-packages/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/the-era-of-micro-packages/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been planing to write a blog post about this for a long. Building small,
+focused modules/package means reusability and makes it possible to build larger
+more advanced apps.&lt;/p&gt;
+
+&lt;p&gt;As stated by &lt;a href=&#34;https://en.wikipedia.org/wiki/Douglas_McIlroy&#34;&gt;Douglas McIlroy&lt;/a&gt;,
+Unix programs have always been expected to follow the concept of DOTADIW:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Do One Thing And Do It Well.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to list your most-used commands</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-list-your-most-used-commands/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-list-your-most-used-commands/</guid>
+      <description>&lt;p&gt;If you are a developer, you&amp;rsquo;re mostly working using the command line. You may
+even wanna find out the most used commands.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;fc -l &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; | awk &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] &amp;#34; &amp;#34; CMD[a]/count*100 &amp;#34;% &amp;#34; a; }&amp;#39;&lt;/span&gt; | grep -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./&amp;#34;&lt;/span&gt; | column -c3 -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; -t | sort -nr | nl | head -n10&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>WARNING: UNPROTECTED PRIVATE KEY FILE!</title>
+      <link>https://www.erdaltaskesen.com/blog/warning-unprotected-private-key-file/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/warning-unprotected-private-key-file/</guid>
+      <description>&lt;p&gt;I was planning to do a clean install after macOS Catalina was released. I copied
+my ssh keys and I&amp;rsquo;ve seen the warning when I tried to run git-related commands.&lt;/p&gt;
+
+&lt;p&gt;After a short research, I&amp;rsquo;ve found out the source of the problem is the
+permissions on the private key file.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using WhatsApp for Private Storage and Quick Transfer</title>
+      <link>https://www.erdaltaskesen.com/blog/using-whatsapp-for-private-storage-and-quick-transfer/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/using-whatsapp-for-private-storage-and-quick-transfer/</guid>
+      <description>&lt;p&gt;WhatsApp is undoubtedly one of the most popular messaging apps out there. You
+can use it a lot more than messaging with a little hack.&lt;/p&gt;
+
+&lt;p&gt;WhatsApp doesn&amp;rsquo;t allow you to send messages to your own number. Of course, you
+can use one of your friends for that aim but it can be annoying for your friend
+over time. A better way of it is using the simple trick below.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to execute the last command with Sudo</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-execute-the-last-command-with-sudo/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-execute-the-last-command-with-sudo/</guid>
+      <description>&lt;p&gt;If you forgot to add &lt;code&gt;sudo&lt;/code&gt; in your last command, you don&amp;rsquo;t need to type it
+completely. To execute ant last executed command by as super user:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo !!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How do I stop automatically unzipping downloaded Zip files in Safari</title>
+      <link>https://www.erdaltaskesen.com/blog/how-do-i-stop-automatically-unzipping-downloaded-zip-files-in-safari/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-do-i-stop-automatically-unzipping-downloaded-zip-files-in-safari/</guid>
+      <description>&lt;p&gt;The Safari browser opens automatically the files that is considered &amp;ldquo;safe&amp;rdquo; after
+it finishes downloading them. This can be very handy sometime but it can be
+dangerous as well. If you would like Safari just download the .zip files and
+leave it to you decided what to do, you can disable this feature.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using File Finder on Github</title>
+      <link>https://www.erdaltaskesen.com/blog/using-file-finder-on-github/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/using-file-finder-on-github/</guid>
+      <description>&lt;p&gt;The first time I started to use Sublime Text I love the &lt;code&gt;⌘ + p&lt;/code&gt; shortcut
+combination. I really change the way I switch between files. After Github, I
+started to read codes on Github a lot.&lt;/p&gt;
+
+&lt;p&gt;Of couse you can use the search in this repository feature but it is slow and
+not good about listing files names.&lt;/p&gt;
+
+&lt;p&gt;Today I have discovered wonderful keyboard shortcut on Github: &lt;code&gt;t&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to partially stage files</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-partially-stage-files/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-partially-stage-files/</guid>
+      <description>&lt;p&gt;GIT has a wonderful idea that is known as the staging area. The stage area is
+the place where you prepare the files that are going to be on your next commit.
+Sometimes you want to add only one specific part of some files.&lt;/p&gt;
+
+&lt;p&gt;You can use one of the following commands. This commands with their options will
+will break down your files into smaller portions named &lt;strong&gt;hunks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git add -p &amp;lt;filename&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moving from Flask to Hugo</title>
+      <link>https://www.erdaltaskesen.com/blog/moving-from-flask-to-hugo/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/moving-from-flask-to-hugo/</guid>
+      <description>&lt;p&gt;I have been planning to rejuvenate my personal website / blog with a new backend
+for a long time. I have finally moved to &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; after messing
+with different kind of tech stacks over the time.&lt;/p&gt;
+
+&lt;p&gt;I have moved every single feature to Hugo successfully, but There are a few
+things that don&amp;rsquo;t fully work yet, but for the moment, I&amp;rsquo;m happy with my new site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to fix wrong Git Tag date</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-fix-wrong-git-tag-date/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-fix-wrong-git-tag-date/</guid>
+      <description>&lt;p&gt;You can add git tag to a previous commit using &lt;code&gt;git tag TAG_NAME COMMIT_HASH&lt;/code&gt;,
+but it will ammend current date to that tag which can screw your repository by
+making out of chronological order. Don&amp;rsquo;t worry, You may fix this using the code
+below.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git tag -l | &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; read -r tag ; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; COMMIT_HASH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git rev-list -1 $tag&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; GIT_COMMITTER_DATE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git show $COMMIT_HASH --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;%aD | head -1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; git tag -a -f $tag -m&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;git show $COMMIT_HASH --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;%s | head -1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; $COMMIT_HASH ; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git push --tags --force&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to change a commit timestamp</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-change-a-commit-timestamp/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-change-a-commit-timestamp/</guid>
+      <description>&lt;p&gt;You may need to change the DateTime of a commit in some situations. For example,
+some countries use daylight saving time period and because of it, some of the
+commits can have the wrong timestamp.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git commit --amend --date &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Thu Feb 15 22:37:31 2018 +0300&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Ubuntu Server LTS from 16.04 to 18.04</title>
+      <link>https://www.erdaltaskesen.com/blog/upgrading-ubuntu-server-lts-from-16-04-to-18-04/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/upgrading-ubuntu-server-lts-from-16-04-to-18-04/</guid>
+      <description>&lt;p&gt;Ubuntu 18.04, aka Bionic Beaver, was released on 26 April 2018. In this post, I
+will try to explain how do I upgrade my Ubuntu server. I will also inform you
+about how I overcome the obstacles related python hosting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to remove all packages installed by pip</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-remove-all-packages-installed-by-pip/</link>
+      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-remove-all-packages-installed-by-pip/</guid>
+      <description>&lt;p&gt;Sometimes you want to get rid of from all python packages. There is a quick and
+easy way to do this. The command below will also remove the packages installed
+via VCS.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pip freeze | grep -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;^-e&amp;#34;&lt;/span&gt; | xargs pip uninstall -y&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ignoring the .gitignore file</title>
+      <link>https://www.erdaltaskesen.com/blog/ignoring-the-gitignore-file/</link>
+      <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/ignoring-the-gitignore-file/</guid>
+      <description>&lt;p&gt;Today I have a small disagreement with GIT and git ignore rules. When you add a
+file to a GIT repository, it is tracked by GIT. Then adding it to &lt;code&gt;.gitignore&lt;/code&gt;
+won&amp;rsquo;t make GIT forget about that file.&lt;/p&gt;
+
+&lt;p&gt;In this post, I will explain how to stop GIT from tracking a file that is
+already tracked.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building a Flask REST API without using 3rd party extension</title>
+      <link>https://www.erdaltaskesen.com/blog/building-a-flask-rest-api-without-using-3rd-party-extension/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/building-a-flask-rest-api-without-using-3rd-party-extension/</guid>
+      <description>In this tutorial, I&amp;rsquo;m going to show you how to create a simple REST API by using Flask framework. I will not bother you with any sort of advanced topic. Probably you won&amp;rsquo;t use this tutorial for any kind of production level product. I just want to show how easy can be to create a REST API with Flask.
+This tutorial aims to build a small and simple app. The entire app fits in a single file.</description>
+    </item>
+    
+    <item>
+      <title>Saving the local changes temporarily in Git</title>
+      <link>https://www.erdaltaskesen.com/blog/saving-the-local-changes-temporarily-in-git/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/saving-the-local-changes-temporarily-in-git/</guid>
+      <description>&lt;p&gt;Imagine that you&amp;rsquo;re working on a big feature in your app. Then you get a
+critical bug ticket that should be resolved immediately. You don&amp;rsquo;t want to
+commit the messy code. You just want to save your dirty working environment, do
+urgent things and go back it. For this, you can use &lt;code&gt;git stash&lt;/code&gt; command.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I do backup my server using Dropbox headless</title>
+      <link>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</guid>
+      <description>&lt;p&gt;I have experienced a disaster on my web server a few days ago. While trying to
+remove one of my dev databases, I have removed the production database
+accidentally. I was extremely lucky because I duplicated production database to
+the local one to test a python script and I have all my web app&amp;rsquo;s content in the
+GIT history which you shouldn&amp;rsquo;t. Because it is not the best practice to put web
+app&amp;rsquo;s content to the VCS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to generate secrets in Python 3.6 and later</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-generate-secrets-in-python-3-6-and-later/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-generate-secrets-in-python-3-6-and-later/</guid>
+      <description>&lt;p&gt;There are a lot of ways to generate random values. But some of them are not
+suitable for secret keys. There is a new module named secrets in version 3.6 and
+later. You can use the code below to generate cryptographically strong random
+values.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; secrets
+secrets&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;token_hex()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to remove __pycache__ folders and .pyc files</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-remove-pycache-folders-and-pyc-files/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-remove-pycache-folders-and-pyc-files/</guid>
+      <description>&lt;p&gt;These folder and files are generated by python. You should add these to your
+VCS&amp;rsquo;s ignore file. But if you need to clean these manually, you can do with the
+command below:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;find &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; grep &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;E &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;(__pycache__|\.pyc|\.pyo$)&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; xargs rm &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;rf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to block search engines in the nginx</title>
+      <link>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-to-block-search-engines-in-the-nginx/</guid>
+      <description>&lt;p&gt;If you have three layered development structure (local dev, remote staging,
+remote production) like me, you want to search engines index your staging server.
+It is easy to prevent search engines from indexing your nginx web server.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;add_header  X-Robots-Tag &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;noindex, nofollow, nosnippet, noarchive&amp;#34;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>A journey of a thousand miles begins with a single step</title>
+      <link>https://www.erdaltaskesen.com/blog/a-journey-of-a-thousand-miles-begins-with-a-single-step/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/a-journey-of-a-thousand-miles-begins-with-a-single-step/</guid>
+      <description>&lt;p&gt;Some of you may have noticed that I&amp;rsquo;ve been building my website/blog for a long
+time. Even some of those have been pestering me about it.&lt;/p&gt;
+
+&lt;p&gt;In 2008, I bought my domain to make my personal website. Since then, I have
+built this website using different kinds of tech stacks, from static to drupal.
+Well, it took me over 10 years, but finally, I&amp;rsquo;m here with a flask website. You
+may find details of my stack below.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

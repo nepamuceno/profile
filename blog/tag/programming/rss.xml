@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/programming/</link>
+    <description>Recent content in Programming on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/programming/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Era of Micro Packages</title>
+      <link>https://www.erdaltaskesen.com/blog/the-era-of-micro-packages/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/the-era-of-micro-packages/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been planing to write a blog post about this for a long. Building small,
+focused modules/package means reusability and makes it possible to build larger
+more advanced apps.&lt;/p&gt;
+
+&lt;p&gt;As stated by &lt;a href=&#34;https://en.wikipedia.org/wiki/Douglas_McIlroy&#34;&gt;Douglas McIlroy&lt;/a&gt;,
+Unix programs have always been expected to follow the concept of DOTADIW:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Do One Thing And Do It Well.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

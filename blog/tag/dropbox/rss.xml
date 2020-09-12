@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dropbox on Erdal TAŞKESEN</title>
+    <link>https://www.erdaltaskesen.com/blog/tag/dropbox/</link>
+    <description>Recent content in Dropbox on Erdal TAŞKESEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.erdaltaskesen.com/blog/tag/dropbox/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I do backup my server using Dropbox headless</title>
+      <link>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erdaltaskesen.com/blog/how-i-do-backup-my-server-using-dropbox-headless/</guid>
+      <description>&lt;p&gt;I have experienced a disaster on my web server a few days ago. While trying to
+remove one of my dev databases, I have removed the production database
+accidentally. I was extremely lucky because I duplicated production database to
+the local one to test a python script and I have all my web app&amp;rsquo;s content in the
+GIT history which you shouldn&amp;rsquo;t. Because it is not the best practice to put web
+app&amp;rsquo;s content to the VCS.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
